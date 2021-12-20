@@ -38,7 +38,7 @@ body {
     animation-iteration-count: infinite;
 }
 
-/* @keyframes lights {
+@keyframes lights {
     0%{
         background-color: blue;
         box-shadow: 0px 0px 50px 30px blue;
@@ -58,7 +58,7 @@ body {
     }
     80%{background-color: yellow;
         box-shadow: 0px 0px 50px 30px yellow;}
-} */
+}
 
 .battery {
     display: inline-block;
