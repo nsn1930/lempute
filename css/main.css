@@ -48,12 +48,12 @@ body {
     }
 
     40%{
-        background-color: red;
-        box-shadow: 0px 0px 50px 30px red;
-    }
-    60%{
         background-color: greenyellow;
         box-shadow: 0px 0px 50px 30px greenyellow;
+    }
+    60%{
+        background-color: red;
+        box-shadow: 0px 0px 50px 30px red;
     }
     80%{background-color: yellow;
         box-shadow: 0px 0px 50px 30px yellow;}
