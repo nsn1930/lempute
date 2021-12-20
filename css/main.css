@@ -1,0 +1,60 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+}
+
+.bulb {
+    background-image: url(./../img/lightbulb.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 650px;
+    margin-top: 90px;
+    position: relative;
+}
+
+.light {
+    font-size: 3px;
+    height: 100em;
+    width: 100em;
+    background-color: blue;
+    border-radius: 50%;
+    left: 50%;
+    position: absolute;
+    left: 40%;
+    position: absolute;
+    margin-top: 90px;
+    box-shadow: 0px 0px 50px 30px blue;
+    animation-name: lights;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes lights {
+    0%{
+        background-color: blue;
+        box-shadow: 0px 0px 50px 30px blue;
+    }
+    20% {
+        background-color: goldenrod;
+        box-shadow: 0px 0px 50px 30px goldenrod;
+    }
+
+    40%{
+        background-color: red;
+        box-shadow: 0px 0px 50px 30px red;
+    }
+    60%{
+        background-color: greenyellow;
+        box-shadow: 0px 0px 50px 30px greenyellow;
+    }
+    80%{background-color: yellow;
+        box-shadow: 0px 0px 50px 30px yellow;}
+}
